@@ -2,6 +2,10 @@ body{
     margin: 0;
 }
 
+img{
+    width: 100%;
+}
+
 .title{
     color: teal;
     text-align: center;
@@ -13,17 +17,10 @@ body{
     margin: 0 auto;
     border: 1px solid purple;
     padding: 10px;
+    margin-bottom: 100px;
 }
 
-.bd-info{
-
-}
-
-.bd-map img{
-    width: 100%;
-}
-
-.details-button{
+.show-more-button{
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -34,7 +31,55 @@ body{
     background-image: linear-gradient(90deg, #00d2ff, #3a7bd5);
 }
 
-.details-button:hover{
+.show-more-button:hover{
     background-image: linear-gradient(90deg, #3a7bd5, #00d2ff);
     color: whitesmoke;
+}
+
+.middle-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.division-cart{
+    width: 250px;
+    box-shadow: 4px 4px 12px gray;
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.division-content{
+    padding: 10px 20px 30px;
+}
+
+.details-button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 7px;
+    background-color: indianred;
+    transition: 0.8s;
+}
+
+.details-button:hover{
+    background-color: mediumaquamarine;
+    border-radius: 5px;
+}
+
+.division-cart img{
+    height: 150px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
 }
